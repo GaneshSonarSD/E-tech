@@ -93,3 +93,5 @@ app.post("/login", async(req, res) => {
 app.listen(port,() =>{
     console.log(`server is running at port no ${port}`);
 })
+
+/// package json dev tool  // "dev" : "nodemon src/app.js -e js,hbs"
